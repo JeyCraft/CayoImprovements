@@ -1,8 +1,15 @@
 # CayoImprovements 🏝️
 
-Designed for RP and exploration in mind, CayoImprovements enhances the island by removing obstructing collisions, adds more vegetation, street lights, heist props and socializing opportunities. 
+Designed for RP and exploration in mind, CayoImprovements enhances the island by removing obstructing collisions, adds more vegetation, street lights, heist props and socializing opportunities.
 
-This is a passion project of mine that began in December of 2020 to self teach myself Codewalker and has been constantly updated and developed since. 
+**This resource is for FiveM usage with the understanding that you will not modify, sell or reupload elsewhere without my permission.**
+
+It is to work alongside [[pmms](https://github.com/kibook/pmms)] for playing content on the TV screens, as well as [[fivem-scenarios](https://github.com/kibook/fivem-scenarios)] for interacting with scenarios around the world, including Cayo Perico.
+
+This is a passion project of mine that began in December of 2020 to self teach myself Codewalker and has been constantly updated and developed since.
+
+Screenshots are provided in their respective folder.
+
 
 I hope you enjoy 😊
 
