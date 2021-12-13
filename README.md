@@ -111,19 +111,23 @@ Due to the hangar being **modified** and additional props placed inside, having 
 
 ---------------------------------------
 
-# Vehicles 🚘
+# **VEHICLES, GATES AND HANGAR COLLISIONS** 🚘
 
-**"No Vehicles" and "No Flight Or Water Vehicles" options updated and provided. Drag and drop the files you require into the CayoImprovements `ymap` folder.**
+`Original Hangar Collision`, `No Flight Or Water Vehicles`, and `NoVehicles` folders have now been combined and put inside the `OPTIONAL` folder.
 
----------------------------------------
+If for whatever reason you would like to add the original gates back, but have them be accessible and not solid shut, *as well as the little button seen in the Cayo Perico Heist in Grand Theft Auto: Online,* I have provided the folder `OPTIONAL`. Place `tays_mansiongates` inside the `ymaps` folder.
+
+# VEHICLES:
+
+**"Vehicles - No Flight Or Water" and "Vehicles - Removed" options updated and provided within the `OPTIONAL` folder. Drag and drop the files you require into the CayoImprovements ymap folder.** Backups have been provided.
 
 # **HANGAR COLLISIONS:**
 
-The hangar collision is now in it's own separate zip folder, so that the server doesn't read it.
+The hangar collision file is also in the `OPTIONAL` folder.
 
-The reason this is, is because if you happen to have the '"[Cayo Perico Shops MLO](https://forum.cfx.re/t/mlo-cayo-perico-shops/1994908)' resource, as well as mine, the server refuses to read the collision file for shops, but instead, read mine, making the shop collisions not work. 
+If you happen to have the '"[Cayo Perico Shops MLO](https://forum.cfx.re/t/mlo-cayo-perico-shops/1994908)' resource, as well as mine, the server refuses to read the collision file for shops, but instead, read mine, making the shop collisions not work. 
 
-Just copy and paste mine, or the Cayo Perico Shops collision file **(h4_islandairstrip_12)** into the ybn 
+Just copy and paste mine, or the Cayo Perico Shops collision file **(h4_islandairstrip_12)** into the ybn folder. 
 
 ---------------------------------------
 
