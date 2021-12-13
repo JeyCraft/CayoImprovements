@@ -1,4 +1,4 @@
-# CayoImprovements
+# CayoImprovements 🏝️
 
 Designed for RP and exploration in mind, CayoImprovements enhances the island by removing obstructing collisions, adds more vegetation, street lights, heist props and socializing opportunities. 
 
@@ -8,7 +8,7 @@ I hope you enjoy 😊
 
 ---------------------------------------
 
-# **REQUIREMENTS:**
+# **REQUIREMENTS** ⚙️
 
 - **Latest recommended artifacts** [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) **or** [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 
@@ -29,7 +29,7 @@ I hope you enjoy 😊
 
 ---------------------------------------
 
-**if you want the TV at the beach party to fade out nicely at a certain point, try these settings, then go to advanced settings and save it as an entity, call it Cayo Perico Beach TV:**
+**If you want the TV at the beach party to fade out nicely at a certain point, try these settings, then go to advanced settings and save it as an entity, call it Cayo Perico Beach TV:**
 
 > Volume: 100
 > 
@@ -110,7 +110,7 @@ Due to the hangar being **modified** and additional props placed inside, having 
 
 ---------------------------------------
 
-#HANGAR COLLISIONS:**
+# **HANGAR COLLISIONS:**
 
 The hangar collision is now in it's own separate zip folder, so that the server doesn't read it.
 
