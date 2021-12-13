@@ -1,0 +1,165 @@
+Cayo Perico Freeroam and RP Improvements -- By TayMcKenzieNZ
+
+Version 4.1.4
+
+NOW WITH SNOW FLAKE REMOVAL, ENTITYSET AND WORKING LIGHTHOUSE!!
+
+🚫 Do not reupload or compile my release without my written acknowledgement and permission 🚫
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Back story: 
+
+The Cayo Perico Island was designed by Rockstar Games for Grand Theft Auto Online heists, therefore it is dark for the purpose of stealth.
+
+Many people in FiveM like to roleplay, and I didn't like how dark the island was, or the fact that you needed a hopper just to visit the island,
+so I added lights and many improvments, as well as requesting the native that
+Rockstar Games uses to enable and disable the island, depending on where the player is on the map.
+
+I do not in any way shape or form, claim the Cayo Perico Island, its assets or its' files as my own intellectual property.
+
+All credits go to Rockstar Games, Taketwo Interactive, OpenIV, Codewalker, and MAFINS Menyoo trainer.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+IMPORTANT NOTE:
+
+TVs are to work with PMMS.
+
+PMMS: https://github.com/kibook/pmms
+
+
+if you want the TV at the beach party to fade out nicely at a certain point, try these settings, then go to advanced settings and save it as an entity, call it Cayo Perico Beach TV:
+
+Volume: 100
+
+sameRoom: 2.4
+
+diffRoom: 6.0
+
+Range: 40
+
+In the future, any TV settings you want, save it as an entity. Saving it as model will save those settings for that TV, everywhere around the map.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+CONTENTS:
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+The ymap files contains over 200 lights to brighten up Cayo Perico.
+
+There are 100 seperate ymaps to avoid having 200+ props loaded in by a singular ymap.
+
+The ymaps consist of:
+
+- Runway lights and a helipad
+
+- Street lights around the main roads of the island
+
+- Mansion Pool improvement and solid sun loungers, beach ball, floatie, tables and chairs etc
+
+- Side doors opened and lift doors removed
+
+- Animal cage door opened
+
+- "working" lighthouse
+
+- Illuminated Boat Shed near party area and beached whale
+
+- Illuminated skull near grave, opposite party area
+
+And much much more
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+- Illuminated beach party area with buoys, DJ stand lights, bar lights and TVs - TVs are to work with pmms script. Again, this is NOT provided.
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+SCRIPTS:
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+cayo_perico_entitysets.lua: 
+
+
+This script contains the entity sets for El Rubio's safe.
+
+You can request to have either the Pearl Necklace, Panther, or Pink Diamond appear in the safe under Rubio's mansion. 
+
+You must only request ONE set at a time. (example, "pearl_necklace_set" and "pearl_necklace_set,1".
+
+Stop the resource, clear cache, then change your desired entityset, save the lua file and start the resource again. It should appear in game.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+cp_config.lua:
+
+
+-----------------------------------------------------------------------------------------------
+
+
+This script contains all the IPLs and natives for making the island appear as well as Los Santos in your server.
+However, when you approach Cayo Perico, Los Santos will be concealed.
+There may be some bugs when noclipping there too fast, teleporting, spectating a player 
+or teleporting someone to you. If you happen to be on the island; Unfortunately I haven't found a solution 
+to this as the natives were never intended for allowing players to freely explore Cayo Perico in freeroam, 
+hence the majority of the FiveM playerbase who are frustrated about the long loading times due to the island resource
+and can't be bothered with the hopper, as it takes away the freedom to RP and fly/drive a boat to/from the island.
+
+-----------------------------------------------------------------------------------------------
+
+cayo_perico_entitysets.lua
+-----------------------------------------------------------------------------------------------
+
+Responsible for spawning in heist props in El Rubio's Safe. You can decide which one to show
+
+
+HANGAR COLLISIONS:
+-------------------
+
+
+The hangar collision is now in it's own seperate zip folder, so that the server doesn't read it.
+
+The reason this is, is because if you happen to have the 'Cayo Perico Shops' resource, as well as mine, the server refuses to read the
+collsion file for shops, but instead, read mine.
+
+If you decide to put the shops into your server, use their collision.
+
+If you don't have the shops, you can use my collision file.
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+ENFORCING GAMEBUILD IN WINDOWS:
+
+on windows, open your .bat file with Notepad++ (Download Notepad++ here: https://notepad-plus-plus.org/downloads/)
+
+Add the following: +set sv_enforceGameBuild 2372
+
+Save and start server
+
+
+-----------------------------------------------------------------------------------------------
+
+ENFORCING GAMEBUILD ON LINUX
+
+On Linux, it is the exact same thing, however you need to open run.sh instead of the bat file.
+
+If you have txAdmin, you can put it in the Settings > FXServer > Additional arguments. 
+
+Add the following: +set sv_enforceGameBuild 2372
+
+SEE SCREENSHOTS FOR MORE INFO
+

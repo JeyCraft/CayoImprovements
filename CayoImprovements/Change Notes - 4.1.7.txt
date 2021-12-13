@@ -1,0 +1,104 @@
+4.1.7 Changes:
+
+CHANGES TO FILE: CayoImprovements > scripts > peds_config.lua
+
+
+- Shoutout to cfx.re community member StillRobin2 for the following:
+
+- Added guards around the mansion
+
+- Added Valet ped at Beach Party entrance
+
+- Added Merryweather in Towers with binoculars
+
+- Added merryweather
+
+--------------------------------------------------------------
+
+
+CHANGES TO FILE: fxmanifest.lua
+
+- Updated fxmanifest to show  resource name, author, version number, url and dependencies.
+
+Server owners are required to be on server build 3324 or higher, however FiveM and myself recommend that you update the server build to the LATEST RECOMMENDED at least once a month
+
+ Server MUST be on gamebuild 2189 or higher for this resource to run sucessfully. I have already
+provided information on how to enforce the gamebuild to 2189 or higher, don't be stupid, learn
+to read.
+
+
+ADDED: zones.lua
+
+["ISHEIST"] = "Cayo Perico"
+
+No longer shows North Yankton
+
+Server owners / Devs can use this file with any discord rich scripts too.
+
+--------------------------------------------------------------
+
+
+4.1.6 Changes:
+
+- Added boogie boards and scuba diving gear leaning up by Beach Party palm tree
+
+- Added starfish on the beach
+
+- Added more trees and increased LOD
+
+- Added another torture cage and skeleton (4636.376, -4625.843, 13.70579)
+
+- Added drug runner skeleton leaning up against tree (4830.595, -4698.187, 8.404524)
+
+- Removed props such as containers and fences, as well as collisions at docks
+
+- Added ice cream shop and accessories outside shop
+
+
+
+--------------------------------------------------------------
+
+
+
+4.1.5 Changes:
+
+- Added IPL toggles to load and unload the IPLs depending on
+whether or not the player is on or off the island. This was apparently the cause of Rockstar Editor (along with bob74_IPL) having issues. Far too many IPL related resources request the IPLs however never remove them when not needed.
+
+- Renamed some natives
+
+- Added more lights to the Cabin
+
+- Added blockers to stop cars from entering the Beach Party and disturbing RPing players
+
+- Added lights in front of blockers for vehicle parking
+
+- Added mat and Valet stand
+
+
+--------------------------------------------------------------
+
+
+4.1.4 Changes:
+
+
+- Replaced beach party chairs and increased LOD. Players can sit on them if they use my fivem-scenarios script (available here: https://github.com/TayMcKenzieNZ/fivem-scenarios )
+
+
+- Replaced submersibles with the dinghy model. As of 4.1.4, there was an issue trying to get the player to enter the submersible vehicles
+
+
+- Increased underwater UFO LOD. UFO can be found beneath the Los Ness Monster
+
+- Increased lighthouse LOD distance
+
+- Increased tower LOD distance
+
+- Replaced SetDeepOceanScaler with LoadGlobalWaterType
+
+- Added Loch Ness Monster
+
+- Added generator back to docks near NPC staring at (previously) "nothing"
+
+- Added Beach Party Bar props
+
