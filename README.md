@@ -132,3 +132,19 @@ Just copy and paste mine, or the Cayo Perico Shops collision file **(h4_islandai
 I don't use any fancy frameworks or any other Cayo Perico related resources, so you'll have to troubleshoot it on your **own.** These are simply ymaps, therefore you may need to update the fxmanifest version to something newer, and then it should be good to go.
 
 Check any collision (ybn) files of your maps if you face any conflictions.
+
+---------------------------------------
+
+
+# Installation: 
+
+* Download repository and `CayoImprovements` to your server files
+
+* Add `h4_islandairstrip_12` from the `Original Hangar Collison` folder, and insert it into `CayoImprovements` > `stream` > `ybn`. If you are using the Cayo Perico Shops resource, ignore this step
+
+
+* Choose between `No Flight Or Water Vehicles` or `No Vehicles`, and insert the files into the `CayoImprovements` > `stream` > `ymap` folder, replacing the existing files. If you enjoy the vehicles spawning on the island, ignore this step. If at any time you need the vehicles back, grab the files from `Vehicles BACKUP` and place them into the `CayoImprovements` > `stream` > `ymap` folder.
+
+* add `start CayImprovements` to your server.cfg
+
+* Restart server or type `/start CayoImprovements` into the chat window 
