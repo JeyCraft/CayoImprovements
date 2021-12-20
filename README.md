@@ -152,3 +152,20 @@ Check any collision (ybn) files of your maps if you face any conflictions.
 * add `start CayImprovements` to your server.cfg
 
 * Restart server or type `/start CayoImprovements` into the chat window 
+
+---------------------------------------
+
+# License 
+
+This project does not contain a license, therefore you are not allowed to add one and claim it as yours.
+
+You are not allowed to sell this nor re-distribute it. 
+
+You are not allowed to change/add a license. If you want to modify or make an agreement, you can contact me. 
+
+Pull requests are accepted as long as they do not contain breaking changes. 
+
+You can read more here [HERE](https://opensource.stackexchange.com/questions/1720/what-can-i-assume-if-a-publicly-published-project-has-no-license)
+
+
+ 
