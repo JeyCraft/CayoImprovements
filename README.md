@@ -149,7 +149,7 @@ Check any collision (ybn) files of your maps if you face any conflictions.
 
 * Choose between `No Flight Or Water Vehicles` or `No Vehicles`, and insert the files into the `CayoImprovements` > `stream` > `ymap` folder, replacing the existing files. If you enjoy the vehicles spawning on the island, ignore this step. If at any time you need the vehicles back, grab the files from `Vehicles BACKUP` and place them into the `CayoImprovements` > `stream` > `ymap` folder.
 
-* add `start CayImprovements` to your server.cfg
+* add `start CayoImprovements` to your server.cfg
 
 * Restart server or type `/start CayoImprovements` into the chat window 
 
