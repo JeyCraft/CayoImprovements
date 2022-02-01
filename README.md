@@ -172,6 +172,25 @@ Check any collision (ybn) files of your maps if you face any conflictions.
 
 * Restart server or type `/start CayoImprovements` into the chat window 
 
+--------------------
+
+# FAQ
+
+**Q: How come I can't see Cayo Perico unless I get close to the Aircraft Carrier or near where the island is, and the minimap doesn't appear??**
+
+**A:** It's concealed the way Rockstar Games created it, and it had to be done this way to make the modified hangar work.
+
+**Maybe this can help?:**
+
+[How To Load Cayo Perico Minimap](https://forum.cfx.re/t/how-to-load-cayoperico-minimap-all-of-the-time/4808760)
+
+------------
+
+**Q: When I use this resource, I can't use Rockstar Editor. Why?**
+
+**A:** Apparently, *for this to work properly, your IPLs/ymaps have to have Flag value on 1 (alternatively 3) General rule is that if ymap originally has Flag 0, it can be set to 1. If Flag is 2, it can be set to 3*, according to this [post](https://forum.cfx.re/t/standalone-paid-maploader/4808482)
+
+
 ---------------------------------------
 
 # License 
