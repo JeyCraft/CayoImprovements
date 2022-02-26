@@ -71,7 +71,7 @@ To 'fix' this, open the `staticEmitters.lua` file inside the PMMS resource, and 
 
 # CONTENTS 🏝️
 
-- Working lighthouse
+- Working lighthouse 
 
 - **Heist props**  - Can be changed in the `entitysets.lua` file within the **scripts** folder
 
@@ -176,6 +176,20 @@ Check any collision (ybn) files of your maps if you face any conflictions.
 
 # FAQ
 
+**Q: How can I change what's inside the cabinet in the basement?**
+
+**A:** These are called entitysets and can be changed in the cayo_perico_entitysets.lua file.
+
+------------
+
+**Q: Can I delete, change or turn off the invincible NPC peds on the island?**
+
+**A:** Yes, open peds_config.lua and everything has been configured there. You can add / remove entries, or comment it out from the fxmanifest to completely disable them.
+
+You will also need to comment out main_peds.lua if you want to disable them completely.
+
+------------
+
 **Q: How come I can't see Cayo Perico unless I get close to the Aircraft Carrier or near where the island is, and the minimap doesn't appear??**
 
 **A:** It's concealed the way Rockstar Games created it, and it had to be done this way to make the modified hangar work.
@@ -188,8 +202,17 @@ Check any collision (ybn) files of your maps if you face any conflictions.
 
 **Q: When I use this resource, I can't use Rockstar Editor. Why?**
 
-**A:** Apparently, *for this to work properly, your IPLs/ymaps have to have Flag value on 1 (alternatively 3) General rule is that if ymap originally has Flag 0, it can be set to 1. If Flag is 2, it can be set to 3*, according to this [post](https://forum.cfx.re/t/standalone-paid-maploader/4808482)
+**A:** This should be fixed, as the Cfx.re team have pushed an update on February 8th 2022 which implemented some CPacketIPL changes for the replay editor. This should fix replay editor issues on build 2189 and above with common IPL loading resources.
 
+Read about it [here](https://forum.cfx.re/t/cfx-re-client-update-fivem-redm-for-february-8th-2022/4813410)
+
+------------
+
+**Q: I bought something from someone that looked similar to this?**
+
+**A:** Yikes. My resources are always free and some people pry on free resources to sell them off as their own, usually on some shady website or their discord servers. 
+
+Unfortunately you've been scammed and I cannot help you get a refund or anything of that manner.
 
 ---------------------------------------
 
