@@ -214,6 +214,12 @@ Read about it [here](https://forum.cfx.re/t/cfx-re-client-update-fivem-redm-for-
 
 Unfortunately you've been scammed and I cannot help you get a refund or anything of that manner.
 
+------------
+
+**Q: Can I DM you / can you help me personally one on one?**
+
+**A:** No. Don't DM me on the FiveM forums and don't try to add me on Discord.
+
 ---------------------------------------
 
 # License 
