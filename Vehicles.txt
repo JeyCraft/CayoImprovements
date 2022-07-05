@@ -1,3 +1,6 @@
+I can't be bothered to maintain these anymore. If you don't want them, learn basic Codewalker and remove them yourselves
+
+
 FILES:
 
 h4_islandx_barrack_props

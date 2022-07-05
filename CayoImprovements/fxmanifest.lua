@@ -16,12 +16,8 @@ url  "https://forum.cfx.re/t/releases-free-cayo-perico-improvements-freeroam-4-1
 
 this_is_a_map 'yes'
 
-data_file 'h4_dlc_int_03_h4' 'stream/ytyp/h4_dlc_int_03_h4.ytyp'
-data_file 'h4_dlc_int_04_h4' 'stream/ytyp/h4_dlc_int_04_h4.ytyp'
-data_file 'h4_mph4_airstrip_interior_0_airstrip_hanger' 'stream/ytyp/h4_mph4_airstrip_interior_0_airstrip_hanger.ytyp'
-	
-	
 
+data_file 'DLC_ITYP_REQUEST' 'stream/ytyp/mads_no_exp_pumps.ytyp' -- Stops petrol pumps from exploding. Credit to MadsL on the FiveM Forums for this.
 
 
 client_scripts {
@@ -40,6 +36,8 @@ client_scripts {
 
 
 ---                                                                     ---
----   THIS IS A FREE RESOURCE PROVIDED TO CFXE FORUMS FOR FIVEM USAGE   ---
----        DO NOT REUPLOAD OR MODIFY WITHOUT MY PERMISSION
+---   THIS IS A FREE RESOURCE PROVIDED TO CFXRE FORUMS FOR FIVEM USAGE   ---
+---        DO NOT REUPLOAD OR MODIFY WITHOUT MY PERMISSION               ---
+---        DO NOT CONVERT FOR SINGLE PLAYER USAGE WITHOUT MY PERMISSION  ---
 ---    YOU CAN COMMENT OUT PEDS AND TELEPORTERS IF YOU WISH TO          ---
+---    DO NOT DM ME FOR ONE ON ONE SUPPORT.                             ---
