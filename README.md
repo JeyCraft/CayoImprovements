@@ -36,23 +36,12 @@ I hope you enjoy 😊
 
 ---------------------------------------
 
-# Configuring PMMS
+# Configuring PMMS ⚙️
 
 **Please see [Kibook's PMMS](https://github.com/kibook/pmms) for installation instructions and troubleshooting**
 
+------------------
 
-
-**If you want the TV at the beach party to fade out nicely at a certain point, try these settings, then go to advanced settings and save it as an entity, call it Cayo Perico Beach TV:**
-
-> Volume: 100
-> 
-> sameRoom: 2.4
-> 
-> diffRoom: 6.0
-> 
-> Range: 40
-
-**In the future, any TV settings you want, save it as an entity. Saving it as model will save those settings for that TV, everywhere around the map.**
 
 # Static Emitters 🎶
 
@@ -127,20 +116,19 @@ Due to the hangar being **modified** and additional props placed inside, having 
 
  ⚠️ **TELEPORTING TO AND FROM THE ISLAND **MAY** CAUSE ISSUES. USE A BRIDGE, PLANE, HELICOPTER OR BOAT** ⚠️
 
+some IPL Loader scripts have the following code:
 
+```
+LoadMpDlcMaps()
+EnableMpDlcMaps(true)
+```
+
+This conflicts with Cayo Perico, as my resources are already requesting the required IPLs, maps, and entitysets. 
+
+Set it to false and request your IPLs the correct way.
 ---------------------------------------
 
-# **VEHICLES, GATES AND HANGAR COLLISIONS** 🚘
-
-`Original Hangar Collision`, `No Flight Or Water Vehicles`, and `NoVehicles` folders have now been combined and put inside the `OPTIONAL` folder.
-
-If for whatever reason you would like to add the original gates back, but have them be accessible and not solid shut, *as well as the little button seen in the Cayo Perico Heist in Grand Theft Auto: Online,* I have provided the folder `OPTIONAL`. Place `tays_mansiongates` inside the `ymaps` folder.
-
-# VEHICLES:
-
-**"Vehicles - No Flight Or Water" and "Vehicles - Removed" options updated and provided within the `OPTIONAL` folder. Drag and drop the files you require into the CayoImprovements ymap folder.** Backups have been provided.
-
-# **HANGAR COLLISIONS:**
+# **HANGAR COLLISIONS 🛩️:**
 
 The hangar collision file is also in the `OPTIONAL` folder.
 
@@ -152,14 +140,12 @@ Just copy and paste mine, or the Cayo Perico Shops collision file **(h4_islandai
 
 # Frameworks & Other Cayo Perico Resources / Scripts Support:
 
-I don't use any fancy frameworks or any other Cayo Perico related resources, so you'll have to troubleshoot it on your **own.** These are simply ymaps, therefore you may need to update the fxmanifest version to something newer, and then it should be good to go.
-
-Check any collision (ybn) files of your maps if you face any conflictions.
+I don't use any fancy frameworks or any other Cayo Perico related resources, so you'll have to troubleshoot it on your **own.**
 
 ---------------------------------------
 
 
-# Installation: 
+# Installation 💾: 
 
 * Download repository and put the `CayoImprovements` folder in your server files
 
@@ -174,7 +160,7 @@ Check any collision (ybn) files of your maps if you face any conflictions.
 
 --------------------
 
-# FAQ
+# FAQ 💬
 
 **Q: How can I change what's inside the cabinet in the basement?**
 
@@ -193,10 +179,6 @@ You will also need to comment out main_peds.lua if you want to disable them comp
 **Q: How come I can't see Cayo Perico unless I get close to the Aircraft Carrier or near where the island is, and the minimap doesn't appear??**
 
 **A:** It's concealed the way Rockstar Games created it, and it had to be done this way to make the modified hangar work.
-
-**Maybe this can help?:**
-
-[How To Load Cayo Perico Minimap](https://forum.cfx.re/t/how-to-load-cayoperico-minimap-all-of-the-time/4808760)
 
 ------------
 
@@ -222,13 +204,19 @@ Unfortunately you've been scammed and I cannot help you get a refund or anything
 
 ------------
 
+**Q: I added a bridge but there's trees. Can you remove them for me?
+
+**A: NO**
+
+------------------
+
 **Q: Can I DM you / can you help me personally one on one?**
 
 **A:** No. Don't DM me on the FiveM forums and don't try to add me on Discord.
 
 ---------------------------------------
 
-# License 
+# License 📝
 
 This project does not contain a license, therefore you are not allowed to add one and claim it as yours.
 
