@@ -2,7 +2,7 @@
 local islandCoords = vector3(4840.571, -5174.425, 2.0)
 local nearIsland = false
 
-
+---- Requests All Island IPLs 
 
 local Ipls = {
 
@@ -320,6 +320,8 @@ local Ipls = {
 }
 
 
+---- Toggles The IPLs To Load Or Unload Los Santos / Cayo Perico, Depending On Where The Player Is Currently Located
+
 local function toggleIpls (enabled)
   for _, Ipl in ipairs(Ipls) do
     if enabled then
@@ -345,6 +347,18 @@ CreateThread(function()
   end
 end)
 
+---- Remove Annoying Flight Music That Drives RPers Insane. Set this to 'false' to reenable it
+
+Citizen.CreateThread(function() 
+	DisableFlightMusic()
+ end)
+ 
+ function DisableFlightMusic()
+	SetAudioFlag('DisableFlightMusic', true)
+ end
+ 
+------ The Good Stuff
+
 CreateThread(function()
   SetZoneEnabled(GetZoneFromNameId("PrLog"), false) -- REMOVES SNOW FROM CP
   SetScenarioGroupEnabled('Heist_Island_Peds', 1)
@@ -358,8 +372,8 @@ CreateThread(function()
       if not nearIsland then
         nearIsland = true
         toggleIpls(true)
-        SetIslandHopperEnabled("HeistIsland", true)  -- Switch to CP
-        SetAiGlobalPathNodesType(1) -- island path nodes CP
+        SetIslandHopperEnabled("HeistIsland", true)  -- Switch to Cayo Perico
+        SetAiGlobalPathNodesType(1) -- Island Path nodes Cayo Perico
         SetToggleMinimapHeistIsland(true) -- Cayo Perico Mini Map
         LoadGlobalWaterType(1)
         SetDeepOceanScaler(0.0)
@@ -368,8 +382,8 @@ CreateThread(function()
       if nearIsland then
         nearIsland = false
         toggleIpls(false)
-        SetIslandHopperEnabled("HeistIsland", false) -- Switch to LS
-        SetAiGlobalPathNodesType(0) -- island path nodes switched to LS
+        SetIslandHopperEnabled("HeistIsland", false) -- Switch to Los Santos
+        SetAiGlobalPathNodesType(0) -- Island path nodes switched to Los Santos
         SetToggleMinimapHeistIsland(false) -- Cayo Perico Mini Map Disabled
         LoadGlobalWaterType(0)
         SetDeepOceanScaler(1.0)
