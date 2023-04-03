@@ -1,5 +1,12 @@
 # CayoImprovements 🏝️
 
+<p align="center">
+    <a href="https://github.com/TayMcKenzieNZ/CayoImprovements/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License"></a>
+    <a href="https://github.com/TayMcKenzieNZ/CayoImprovements/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/CayoImprovements.svg?style=social&label=Stars"></a>
+    <a href="https://github.com/TayMcKenzieNZ/CayoImprovements/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/CayoImprovements.svg?style=social&label=Forks"></a>
+</p>
+
+
 Designed for RP and exploration in mind, CayoImprovements enhances the island by removing obstructing collisions, adds more vegetation, street lights, heist props and socializing opportunities.
 
 **This resource is for FiveM usage with the understanding that you will not modify, sell or reupload elsewhere without my permission.**
